@@ -4,7 +4,8 @@ import joblib
 import numpy as np
 
 # Loading the model file
-model = joblib.load("C:/Users/dell/.spyder-py3/titanic_logistic_model.pkl")
+# model = joblib.load("C:/Users/dell/.spyder-py3/titanic_logistic_model.pkl")
+model = joblib.load("titanic_logistic_model.pkl")
 
 # Setting a nice title for the app, for users
 st.title("Titanic Survival Prediction App")
